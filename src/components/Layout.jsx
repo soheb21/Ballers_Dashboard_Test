@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
                 </header>
 
 
-                <aside className={`col-span-1 row-span-full absolute ${isOpen ? 'left-1' : '-left-52'} transition-all md:static h-full w-1/2 md:w-full`}>
+                <aside className={`col-span-1 row-span-full absolute ${isOpen ? 'left-1' : '-left-96'} transition-all md:static h-full w-1/2 md:w-full`}>
                     <SideBar isOpen={isOpen} setIsOpen={setIsOpen} />
                 </aside>
 

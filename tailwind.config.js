@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary-bg': '#ffedd5',
+        'secondary-bg': '#374151',
+        'primary-text': "#0d1117",
+        'secondary-text': "#21262d",
+        'primary-btn': "#f97520",
+        'primary-hover-btn': "#fdba74",
+        'secondary-btn': "#0d1117"
+      }
+    },
   },
   plugins: [],
 }
