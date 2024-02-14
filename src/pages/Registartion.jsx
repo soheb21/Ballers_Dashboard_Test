@@ -51,11 +51,11 @@ const Registration = () => {
                 </div>
 
                 {/* right */}
-                <div className="flex flex-col justify-center h-full w-full py-4 md:w-2/4 items-center bg-primary-bg ">
-                    <h1 className='col-span-full text-center p-2 rounded-lg text-primary-btn shadow-md  font-thin text-2xl mb-5'>Register</h1>
+                <div className="flex flex-col justify-center h-full w-full py-4 md:w-2/4 items-center  bg-gradient-to-l from-red-200 to-amber-100 ">
+                    <h1 className='col-span-full text-center p-2 rounded-lg text-primary-text shadow-md  font-thin text-2xl mb-5'>Register</h1>
                     <Input controls={registerControls} formData={registerformData} setFormData={setRegisterformData} />
-                    <button className='bg-primary-btn p-2 rounded-lg hover:bg-primary-hover-btn font-light transition-all text-white' onClick={handleSubmit} >Register</button>
-                    <p className='mt-2 text-lg md:text-xl font-light'>Already Have an Account? <span className='text-primary-btn font-semibold'>{<Link to={"/login"}>Login</Link>}</span></p>
+                    <button className='bg-primary-text p-2 rounded-lg hover:bg-primary-hover-text font-light transition-all text-white' onClick={handleSubmit} >Register</button>
+                    <p className='mt-2 text-lg md:text-xl font-light'>Already Have an Account? <span className='text-primary-text font-semibold'>{<Link to={"/login"}>Login</Link>}</span></p>
 
                 </div>
             </div >

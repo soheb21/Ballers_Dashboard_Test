@@ -7,6 +7,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Page_404 from './pages/Page_404'
 
 function App() {
   const router = createBrowserRouter([
@@ -21,6 +22,10 @@ function App() {
     {
       path: "/login",
       element: <Login />
+    },
+    {
+      path: "*",
+      element: <Page_404 />
     },
   ]);
 
