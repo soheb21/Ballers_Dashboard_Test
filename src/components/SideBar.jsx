@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import { Link, useResolvedPath } from 'react-router-dom'
+import React, { useEffect, useReducer } from 'react'
+import { Link, Navigate, useResolvedPath } from 'react-router-dom'
+import logo from "../assets/logo.svg"
 
 const SideBar = ({ isOpen, setIsOpen }) => {
-    const [isActive, setIsActive] = useState(true)
 
     const sideBarControls = [
         {
@@ -16,7 +16,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
             id: 2,
             name: "My Portfolio",
             icon: "fa-solid fa-briefcase",
-            link: "/portfolio"
+            link: "/details"
 
 
         },
@@ -31,11 +31,25 @@ const SideBar = ({ isOpen, setIsOpen }) => {
 
     ]
     const { pathname } = useResolvedPath();
-    console.log(pathname)
+    const [ignored, forceReload] = useReducer(x => x + 1)
+    const user = localStorage.getItem("user")
+
+    const handleLogout = () => {
+        localStorage.removeItem("user");
+        forceReload();
+    }
+    useEffect(() => {
+
+    }, [ignored])
+    if (!user) {
+        return <Navigate to={"/login"} />
+    }
+
+
     return (
         <section className=' bg-gradient-to-t from-red-500 to-amber-100 border-r rounded-lg h-full overflow-auto no-scrollbar relative p-2'>
             <div className='h-[10%] w-16 mx-auto overflow-hidden rounded-lg'>
-                <img className='h-full w-full ' src="logo.svg" alt="logo" />
+                <img className='h-full w-full ' src={logo} alt="logo" />
             </div>
 
             <div className="grid grid-rows-[auto_50px]  h-[85%] w-full mt-3 md:mt-4 gap-4">
@@ -52,7 +66,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
                 </div>
                 <div className="row-span-2 flex flex-col gap-3 ">
                     <button className='mt-8 w-full hover:bg-secondary-btn p-2 hover:text-primary-bg bg-primary-bg text-primary-text rounded-lg transition-all'><span><i className="fa-solid fa-user" /></span> Profile</button>
-                    <button className='w-full hover:bg-secondary-btn p-2 hover:text-primary-bg bg-primary-bg text-primary-text rounded-lg transition-all'><span><i className="fa-solid fa-right-from-bracket" /></span> Logout</button>
+                    <button onClick={handleLogout} className='w-full hover:bg-secondary-btn p-2 hover:text-primary-bg bg-primary-bg text-primary-text rounded-lg transition-all'><span><i className="fa-solid fa-right-from-bracket" /></span> Logout</button>
 
                 </div>
             </div>

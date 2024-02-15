@@ -8,12 +8,14 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Page_404 from './pages/Page_404'
+import Details from './pages/Details'
+import Protected from './utils/Protected'
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />
+      element: <Protected><Home /></Protected>
     },
     {
       path: "/register",
@@ -24,8 +26,12 @@ function App() {
       element: <Login />
     },
     {
+      path: "/detail/:id",
+      element: <Protected><Details /></Protected>
+    },
+    {
       path: "*",
-      element: <Page_404 />
+      element: <Protected><Page_404 /></Protected>
     },
   ]);
 

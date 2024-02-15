@@ -1,0 +1,163 @@
+{
+  "user": [
+    {
+      "name": "neha",
+      "email": "shoeb@gmail.com",
+      "password": "1234",
+      "id": 1
+    }
+   
+],
+"opportunities":[
+    {
+        "title":"Equtiy",
+        "amount":10000,
+        "img":"https://mdbootstrap.com/img/new/standard/people/087.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus. Cum nobis cupiditate dolore ullam in reiciendis optio deleniti rerum amet, dolores fuga unde laudantium laborum distinctio nostrum ipsum sunt, excepturi repudiandae rem iure neque porro incidunt omnis numquam. Quam accusamus quod quidem odit cum repudiandae velit quaerat, debitis itaque a. Eligendi nisi facilis aspernatur omnis corrupti rem necessitatibus, officiis, eos non voluptas ducimus laudantium laborum? Laboriosam praesentium tenetur quia optio.",
+        "info":[
+            {
+                "heading":" Investment terms and conditions",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Riskfactors",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"How to investor participate",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Any other pertinent information",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "title":"SIP",
+        "amount":50000,
+        "img":"https://mdbootstrap.com/img/new/standard/people/087.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus. Cum nobis cupiditate dolore ullam in reiciendis optio deleniti rerum amet, dolores fuga unde laudantium laborum distinctio nostrum ipsum sunt, excepturi repudiandae rem iure neque porro incidunt omnis numquam. Quam accusamus quod quidem odit cum repudiandae velit quaerat, debitis itaque a. Eligendi nisi facilis aspernatur omnis corrupti rem necessitatibus, officiis, eos non voluptas ducimus laudantium laborum? Laboriosam praesentium tenetur quia optio.",
+        "info":[
+            {
+                "heading":" Investment terms and conditions",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Riskfactors",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"How to investor participate",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Any other pertinent information",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "title":"SIP",
+        "amount":50000,
+        "img":"https://mdbootstrap.com/img/new/standard/people/087.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus. Cum nobis cupiditate dolore ullam in reiciendis optio deleniti rerum amet, dolores fuga unde laudantium laborum distinctio nostrum ipsum sunt, excepturi repudiandae rem iure neque porro incidunt omnis numquam. Quam accusamus quod quidem odit cum repudiandae velit quaerat, debitis itaque a. Eligendi nisi facilis aspernatur omnis corrupti rem necessitatibus, officiis, eos non voluptas ducimus laudantium laborum? Laboriosam praesentium tenetur quia optio.",
+        "info":[
+            {
+                "heading":" Investment terms and conditions",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Riskfactors",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"How to investor participate",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Any other pertinent information",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "title":"SIP",
+        "amount":50000,
+        "img":"https://mdbootstrap.com/img/new/standard/people/087.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus. Cum nobis cupiditate dolore ullam in reiciendis optio deleniti rerum amet, dolores fuga unde laudantium laborum distinctio nostrum ipsum sunt, excepturi repudiandae rem iure neque porro incidunt omnis numquam. Quam accusamus quod quidem odit cum repudiandae velit quaerat, debitis itaque a. Eligendi nisi facilis aspernatur omnis corrupti rem necessitatibus, officiis, eos non voluptas ducimus laudantium laborum? Laboriosam praesentium tenetur quia optio.",
+        "info":[
+            {
+                "heading":" Investment terms and conditions",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Riskfactors",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"How to investor participate",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Any other pertinent information",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "title":"SIP",
+        "amount":50000,
+        "img":"https://mdbootstrap.com/img/new/standard/people/087.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus. Cum nobis cupiditate dolore ullam in reiciendis optio deleniti rerum amet, dolores fuga unde laudantium laborum distinctio nostrum ipsum sunt, excepturi repudiandae rem iure neque porro incidunt omnis numquam. Quam accusamus quod quidem odit cum repudiandae velit quaerat, debitis itaque a. Eligendi nisi facilis aspernatur omnis corrupti rem necessitatibus, officiis, eos non voluptas ducimus laudantium laborum? Laboriosam praesentium tenetur quia optio.",
+        "info":[
+            {
+                "heading":" Investment terms and conditions",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Riskfactors",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"How to investor participate",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Any other pertinent information",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "title":"SIP",
+        "amount":50000,
+        "img":"https://mdbootstrap.com/img/new/standard/people/087.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus. Cum nobis cupiditate dolore ullam in reiciendis optio deleniti rerum amet, dolores fuga unde laudantium laborum distinctio nostrum ipsum sunt, excepturi repudiandae rem iure neque porro incidunt omnis numquam. Quam accusamus quod quidem odit cum repudiandae velit quaerat, debitis itaque a. Eligendi nisi facilis aspernatur omnis corrupti rem necessitatibus, officiis, eos non voluptas ducimus laudantium laborum? Laboriosam praesentium tenetur quia optio.",
+        "info":[
+            {
+                "heading":" Investment terms and conditions",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Riskfactors",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"How to investor participate",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            },
+            {
+                "heading":"Any other pertinent information",
+                "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus sunt saepe possimus quo nesciunt alias cupiditate culpa dolorum, et, mollitia molestias reiciendis nostrum eius hic velit incidunt quisquam, iusto animi. Quod necessitatibus deserunt quia nisi minima id voluptatibus"
+            }
+        ],
+        "id": 6
+    }
+]
+}

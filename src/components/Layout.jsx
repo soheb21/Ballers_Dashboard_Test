@@ -16,11 +16,11 @@ const Layout = ({ children }) => {
                 </header>
 
 
-                <aside className={`z-10 col-span-1 row-span-full absolute ${isOpen ? 'left-1' : '-left-96'} transition-all md:static h-full w-1/2 md:w-full overflow-hidden `}>
+                <aside className={`z-10 col-span-1 row-span-full absolute ${isOpen ? 'left-1' : '-left-96'} transition-all duration-300 ease-in-out md:static h-full w-8/12 md:w-full overflow-hidden `}>
                     <SideBar isOpen={isOpen} setIsOpen={setIsOpen} />
                 </aside>
 
-                <main className="col-span-3">
+                <main className="col-span-3 scroll-smooth  bg-gradient-to-l from-red-200 to-amber-100 overflow-auto no-scrollbar">
                     {children}
                 </main>
 

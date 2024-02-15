@@ -1,17 +1,15 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import React, { useEffect, useReducer, useState } from 'react'
+import { useDispatch } from 'react-redux';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 import Input from '../components/Input';
+import { regiserAsync } from '../features/auth/authSlice';
 
 const Registration = () => {
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+
 
     const registerControls = [
-
-        // {
-        //     name: "photo",
-        //     type: "file",
-        //     label: "user"
-        // },
-
         {
             name: "name",
             placeholder: "Enter your name",
@@ -39,13 +37,22 @@ const Registration = () => {
 
     const [registerformData, setRegisterformData] = useState(initialRegisterFormData);
     const handleSubmit = () => {
-        console.log(registerformData)
+        const { name, email, password } = registerformData;
+        if (!name || !email || !password) {
+            return alert("please fill the Registration form");
+        }
+        dispatch(regiserAsync(registerformData));
+        setTimeout(() => {
+            navigate("/")
+        }, 500)
     }
-    return (
 
+
+
+    return (
         <>
             {/* left */}
-            <div className="flex flex-col-reverse md:flex-row  h-screen justify-center items-center" >
+            <section className="flex flex-col-reverse md:flex-row  h-screen justify-center items-center" >
                 <div className="h-3/4 shadow-lg rounded-md m-2 w-full md:w-2/4 object-fill  overflow-hidden">
                     <img className='h-full w-full' src="register.svg" alt="Register-Image" />
                 </div>
@@ -58,7 +65,7 @@ const Registration = () => {
                     <p className='mt-2 text-lg md:text-xl font-light'>Already Have an Account? <span className='text-primary-text font-semibold'>{<Link to={"/login"}>Login</Link>}</span></p>
 
                 </div>
-            </div >
+            </section>
         </>
 
     )
