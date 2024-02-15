@@ -1,6 +1,6 @@
 # Dashboard
 
--Tech : ReacjS , Reduxtookit, TailwindCSS
+-Tech : ReactJS , Reduxtookit, TailwindCSS
 
 #steps  for running this project on localhost
 - Step:1 Clone this repo by git git clone https://github.com/soheb21/Ballers_Dashboard_Test ./
